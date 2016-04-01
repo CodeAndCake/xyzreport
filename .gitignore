@@ -3,3 +3,4 @@ jekyll/.sass-cache
 jekyll/_site
 node_modules
 .sass-cache
+_site
