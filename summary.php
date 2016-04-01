@@ -26,26 +26,26 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-header">
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1noreport-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
 
-            <div class="logos"><a href="https://www.amnesty.org" target="_blank"><span class="ai"></span></a><a href="fa.php" target="_blank"><span class="fa"></span></a><div class="title"><a href="https://blackfriday.amnesty.org">'BLACK FRIDAY': CARNAGE IN RAFAH</a></div></div>
-        </div>
+<div class="logos"><a href="https://www.amnesty.org" target="_blank"><span class="ai"></span></a><a href="fa.php" target="_blank"><span class="fa"></span></a><div class="title"><a href="https://blackfriday.amnesty.org">'BLACK FRIDAY': CARNAGE IN RAFAH</a></div></div></div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1noreport-collapse">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
             <div class="menu-1"><h5><ul class="nav navbar-nav">
                 <li class="hidden">
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-summary page-scroll-active" href="index.php">Foreword</a>
+                    <a class="page-scroll menu-summary page-scroll-not" href="index.php">Foreword</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-summary page-scroll-not" href="summary.php">Summary</a>
+                    <a class="page-scroll menu-summary page-scroll-active" href="summary.php">Summary</a>
                 </li>
                 <li>
                     <a class="page-scroll menu-report page-scroll-not" href="report.php">Report</a>
@@ -55,6 +55,47 @@
                 </li>
             </ul>
         </h5></div>
+        <div class="menu-2">
+            <h5>
+                <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-narrative page-scroll-not" href="#report.php">Background</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-background page-scroll-active" href="methodology.php">Methodology</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-methodology page-scroll-not" href="#main-narrative-1">Main narrative</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
+                    </li>
+            <!-- <li class="hidden">
+                <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li><a class="page-scroll menu-narrative page-scroll-not" href="report.php">Main Narrative</a>
+            </li>
+            <li><a class="page-scroll menu-background page-scroll-not" href="background.php">Background</a>
+            </li>
+            <li><a class="page-scroll menu-methodology page-scroll-active" href="#methodology-1">Methodology</a>
+            </li>
+            <li><a class="page-scroll menu-law page-scroll-not" href="law.php">International Law</a>
+            </li>
+            <li><a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Investigations</a>
+            </li>
+            <li><a class="page-scroll menu-conclusion page-scroll-not" href="conclusion.php">Conclusions & Recommendations</a>
+            </li> -->
+                </ul>
+            </h5>
+        </div>
 </div>
 <!-- /.navbar-collapse -->
 </div>
@@ -62,12 +103,13 @@
 </nav>
 
 
+
     <?php include ("inc/footnotes.php");?>
     <?php include ("inc/testimonies.php");?>
 
 <!-- Page --><section id="summary-1" class="top-section summary-1 section">
 <div class="main"><div class="box" style="margin-top:0;margin-bottom:2rem;">
-    <h1><span class="h1-heading" style="margin-top:0;background-color:white;color:black">FOREWORD</span></h1>
+    <h1><span class="h1-heading" style="margin-top:0;background-color:white;color:black">'black friday'</span></h1>
     <h3><span class="h3-heading" style="margin-top:.5rem;background-color:black;color:white;">CARNAGE IN RAFAH DURING 2014 ISRAEL/GAZA CONFLICT</span></h3></div>
     <span style="position:absolute;bottom:3px;left:3px;font-size:.8rem;color:white;">
 Bombs dropped in Israeli air strikes fall on the al-Tannur neighbourhood of Rafah on the morning of 1 August 2014. © Said Khatib/AFP/Getty Images.
@@ -187,7 +229,12 @@ Amnesty International is also asking the international community in general to s
 
 
     </div></div></div></div></section><!-- /// Page -->
-    
+
+
+
+
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -196,12 +243,10 @@ Amnesty International is also asking the international community in general to s
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <script src="js/scrolling-nav-report.js"></script>
 
     <!-- Parallax JavaScript -->
     <script src="js/parallax.js"></script>
-    
-    <script src="js/bootstrap-magnify.min.js"></script>
         <script src="js/lightbox.js"></script>
 
 
@@ -214,14 +259,12 @@ Amnesty International is also asking the international community in general to s
     container: 'body'
 });</script>
 
-
 <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0032/7104.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
-
 </body>
 
 </html>

@@ -40,13 +40,19 @@
                 <div class="menu-1"><h5><ul class="nav navbar-nav">
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
-                    </li><li>
-                    <a class="page-scroll menu-summary page-scroll-not" href="https://blackfriday.amnesty.org">Summary</a>
-                </li><li>
-                <a class="page-scroll menu-report page-scroll-active" href="report.php">Report</a>
-            </li><li>
-            <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Cases</a>
-        </li>
+                    </li>
+                    <li>
+                    <a class="page-scroll menu-summary page-scroll-not" href="index.php">Foreword</a>
+                </li>
+                <li>
+                    <a class="page-scroll menu-summary page-scroll-not" href="summary.php">Summary</a>
+                </li>
+                <li>
+                    <a class="page-scroll menu-report page-scroll-active" href="report.php">Report</a>
+                </li>
+                <li>
+                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Annexes</a>
+                </li>
 </ul>
 </h5></div>
 <div class="menu-2"><h5><ul class="nav navbar-nav">

@@ -73,16 +73,16 @@
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-summary page-scroll-not" href="#">Foreword</a>
+                    <a class="page-scroll menu-summary page-scroll-not" href="index.php">Foreword</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-summary page-scroll-not" href="https://blackfriday.amnesty.org">Summary</a>
+                    <a class="page-scroll menu-summary page-scroll-not" href="summary.php">Summary</a>
                 </li>
                 <li>
                     <a class="page-scroll menu-report page-scroll-active" href="report.php">Report</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Cases</a>
+                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Annexes</a>
                 </li> 
             </ul>
         </h5></div>
