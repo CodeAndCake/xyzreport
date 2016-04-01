@@ -106,7 +106,7 @@
                         <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
                     </li>
                     <li>
-                        <a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Acknowledgements / Credits</a>
+                        <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
                     </li>
                     
                     <!-- <li class="hidden">
