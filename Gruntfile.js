@@ -2,7 +2,10 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		shell: {
 			jekyllBuild: {
-				command: 'jekyll build'
+				command: 'jekyll build --config _config.local.yml'
+			},
+			jekyllServe: {
+				command: "jekyll serve --baseurl ''"
 			}
 		},
 		connect: {
@@ -47,7 +50,6 @@ module.exports = function(grunt) {
 				},
 			},
 		},
-
 		browserSync: {
 			default_options: {
 				bsFiles: {
@@ -67,7 +69,12 @@ module.exports = function(grunt) {
 					notify: false
 				}	
 			}
-		}
+		},
+		jekyll: {                             
+    		options: {                        
+    			raw: 'baseurl: ""'
+    		}
+    	}	
 	})
 
 	grunt.loadNpmTasks('grunt-contrib-sass')
@@ -75,7 +82,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch')
 	grunt.loadNpmTasks('grunt-shell')
 	grunt.loadNpmTasks('grunt-browser-sync');
+	grunt.loadNpmTasks('grunt-jekyll');
 	
 	grunt.registerTask('tasting', ['browserSync', 'watch'])
-	grunt.registerTask('default', ['shell', 'connect', 'watch'])
+	grunt.registerTask('default', ['shell:jekyllBuild', 'watch'])
+	grunt.registerTask('yolo', ['jekyll', 'watch'])
 }
