@@ -42,13 +42,16 @@
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-summary page-scroll-active" href="index.php">Summary</a>
+                    <a class="page-scroll menu-summary page-scroll-active" href="#">Foreword</a>
+                </li>
+                <li>
+                    <a class="page-scroll menu-summary page-scroll-not" href="index.php">Summary</a>
                 </li>
                 <li>
                     <a class="page-scroll menu-report page-scroll-not" href="report.php">Report</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Cases</a>
+                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Annexes</a>
                 </li>
             </ul>
         </h5></div>
