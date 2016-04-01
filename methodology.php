@@ -49,9 +49,30 @@
                 </li>
             </ul>
         </h5></div>
-        <div class="menu-2"><h5><ul class="nav navbar-nav">
+        <div class="menu-2">
+            <h5>
+                <ul class="nav navbar-nav">
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-            <li class="hidden">
+            
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-narrative page-scroll-not" href="report.php">Background</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-background page-scroll-active" href="#methodology-1">Methodology</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-methodology page-scroll-not" href="mainNarratives.php">Main narrative</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
+                    </li>
+            <!-- <li class="hidden">
                 <a class="page-scroll" href="#page-top"></a>
             </li>
             <li><a class="page-scroll menu-narrative page-scroll-not" href="report.php">Main Narrative</a>
@@ -65,9 +86,10 @@
             <li><a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Investigations</a>
             </li>
             <li><a class="page-scroll menu-conclusion page-scroll-not" href="conclusion.php">Conclusions & Recommendations</a>
-            </li>
-        </ul>
-    </h5></div>
+            </li> -->
+                </ul>
+            </h5>
+        </div>
 </div>
 <!-- /.navbar-collapse -->
 </div>
