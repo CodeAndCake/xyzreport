@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'sassy.css': '_sass/sassy.scss'
+          'css/sassy.css': '_sass/sassy.scss'
         }
       }
     },
