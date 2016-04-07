@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       scripts: {
         files: [
           '_config.yml',
-          'index.html',  
+          '*.html',  
           '_layouts/**',
           '_posts/**',
           '_includes/**'
