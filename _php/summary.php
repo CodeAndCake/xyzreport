@@ -3,21 +3,9 @@
 
     <?php include ("inc/head.html");?>
 
-<style media="screen" type="text/css">
-
-</style>
-
-<script> 
-  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
-  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
-  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
-  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
-
-  // ga('create', 'UA-1665647-38', 'auto'); 
-  // ga('send', 'pageview'); 
-
-</script> 
 </head>
+
+
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -33,73 +21,73 @@
                 <span class="icon-bar"></span>
             </button>
 
-<div class="logos"><a href="https://www.amnesty.org" target="_blank"><span class="ai"></span></a><a href="fa.php" target="_blank"><span class="fa"></span></a><div class="title"><a href="https://blackfriday.amnesty.org">'BLACK FRIDAY': CARNAGE IN RAFAH</a></div></div></div>
+            <div class="logos"><a href="https://www.amnesty.org" target="_blank"><span class="ai"></span></a><a href="fa.php" target="_blank"><span class="fa"></span></a><div class="title"><a href="https://blackfriday.amnesty.org">'BLACK FRIDAY': CARNAGE IN RAFAH</a></div></div></div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <div class="menu-1"><h5><ul class="nav navbar-nav">
-                <li class="hidden">
-                    <a class="page-scroll" href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll menu-summary page-scroll-not" href="index.php">Foreword</a>
-                </li>
-                <li>
-                    <a class="page-scroll menu-summary page-scroll-active" href="summary.php">Summary</a>
-                </li>
-                <li>
-                    <a class="page-scroll menu-report page-scroll-not" href="report.php">Report</a>
-                </li>
-                <li>
-                    <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Annexes</a>
-                </li>
-            </ul>
-        </h5></div>
-        <div class="menu-2">
-            <h5>
-                <ul class="nav navbar-nav">
-            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-            
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll menu-narrative page-scroll-not" href="#report.php">Background</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll menu-background page-scroll-active" href="methodology.php">Methodology</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll menu-methodology page-scroll-not" href="#main-narrative-1">Main narrative</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
-                    </li>
-            <!-- <li class="hidden">
-                <a class="page-scroll" href="#page-top"></a>
-            </li>
-            <li><a class="page-scroll menu-narrative page-scroll-not" href="report.php">Main Narrative</a>
-            </li>
-            <li><a class="page-scroll menu-background page-scroll-not" href="background.php">Background</a>
-            </li>
-            <li><a class="page-scroll menu-methodology page-scroll-active" href="#methodology-1">Methodology</a>
-            </li>
-            <li><a class="page-scroll menu-law page-scroll-not" href="law.php">International Law</a>
-            </li>
-            <li><a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Investigations</a>
-            </li>
-            <li><a class="page-scroll menu-conclusion page-scroll-not" href="conclusion.php">Conclusions & Recommendations</a>
-            </li> -->
-                </ul>
-            </h5>
-        </div>
-</div>
-<!-- /.navbar-collapse -->
-</div>
-<!-- /.container -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <div class="menu-1"><h5><ul class="nav navbar-nav">
+                            <li class="hidden">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll menu-summary page-scroll-not" href="index.php">Foreword</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll menu-summary page-scroll-active" href="summary.php">Summary</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll menu-report page-scroll-not" href="report.php">Report</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll menu-cases page-scroll-not" href="cases.php">Annexes</a>
+                            </li>
+                        </ul>
+                    </h5></div>
+                    <div class="menu-2">
+                        <h5>
+                            <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        
+                                <li class="hidden">
+                                    <a class="page-scroll" href="#page-top"></a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll menu-narrative page-scroll-not" href="#report.php">Background</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll menu-background page-scroll-active" href="methodology.php">Methodology</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll menu-methodology page-scroll-not" href="#main-narrative-1">Main narrative</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
+                                </li>
+                        <!-- <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li><a class="page-scroll menu-narrative page-scroll-not" href="report.php">Main Narrative</a>
+                        </li>
+                        <li><a class="page-scroll menu-background page-scroll-not" href="background.php">Background</a>
+                        </li>
+                        <li><a class="page-scroll menu-methodology page-scroll-active" href="#methodology-1">Methodology</a>
+                        </li>
+                        <li><a class="page-scroll menu-law page-scroll-not" href="law.php">International Law</a>
+                        </li>
+                        <li><a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Investigations</a>
+                        </li>
+                        <li><a class="page-scroll menu-conclusion page-scroll-not" href="conclusion.php">Conclusions & Recommendations</a>
+                        </li> -->
+                            </ul>
+                        </h5>
+                    </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
 </nav>
 
 
