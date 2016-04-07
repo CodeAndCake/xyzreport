@@ -17,18 +17,26 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/sassy.css" />
-
+		<!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
 		<link rel="canonical" href="{{ site.url }}" />
-		
+
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/sassy.css" />	
 	</head>
 
-	<body class="gridlover-grid">
+	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+		{% include nav.html %}
+		
+		<!-- 
+  	<?php include ("inc/footnotes.php");?>
+  	<?php include ("inc/testimonies.php");?>
+ 		-->
 		
 		{{ content }}
-		
+	    
+	  {% include scripts.html %}
+
 	</body>
 </html>
