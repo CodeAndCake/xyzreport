@@ -526,6 +526,7 @@ h5.caption {
         -moz-transition: top .5s ease-in-out;
         transition: top .5s ease-in-out;
 }
+
 .collapse.navbar-collapse.navbar-ex1-collapse {
   padding-bottom:30px;
   -webkit-transition: padding-bottom .5s ease-in-out;
@@ -538,6 +539,7 @@ h5.caption {
         -moz-transition: padding-bottom .5s ease-in-out;
         transition: padding-bottom .5s ease-in-out;
 }
+
 .navbar-default .navbar-nav > li > a {
   padding: 21px 1rem;
   text-transform: uppercase;
@@ -652,6 +654,10 @@ a.page-scroll-active:hover {
   line-height:1.1;
   display:inline-block;
   z-index:999;
+  
+    -webkit-transition: top .5s ease-in-out;
+        -moz-transition: top .5s ease-in-out;
+        transition: top .5s ease-in-out;
 }
 .page-nav-items {
   float:right;
