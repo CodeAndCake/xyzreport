@@ -20,8 +20,12 @@
         </div>
       </div>
     </div>
-      
+    
+    {% if include.page == "report" %}
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    {% else %}
     <div class="collapse navbar-collapse navbar-ex1noreport-collapse">
+    {% endif %}
       <div class="menu-1">
         <h5>
           <ul class="nav navbar-nav">
@@ -43,6 +47,57 @@
           </ul>
         </h5>
       </div>
+      
+      {% if include.page == "report" %}
+      <div class="menu-2">
+        <h5>
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+                <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+                <a class="page-scroll menu-narrative page-scroll-active" href="#page-top">Background</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-background page-scroll-not" href="methodology.php">Methodology</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-methodology page-scroll-not" href="mainNarratives.php">Main narrative</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-law page-scroll-not" href="conclusion.php">Conclusions & recommendations</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-investigations page-scroll-not" href="credits.php">Acknowledgements / Credits</a>
+            </li>
+            
+            <!-- <li class="hidden">
+                <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+                <a class="page-scroll menu-narrative page-scroll-active" href="#page-top">Main Narrative</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-background page-scroll-not" href="background.php">Background</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-methodology page-scroll-not" href="methodology.php">Methodology</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-law page-scroll-not" href="law.php">International Law</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-investigations page-scroll-not" href="investigations.php">Investigations</a>
+            </li>
+            <li>
+                <a class="page-scroll menu-conclusion page-scroll-not" href="conclusion.php">Conclusions & Recommendations</a>
+            </li> -->
+          </ul>
+        </h5>
+      </div>
+      {% endif %}
+      
     </div>
     <!-- /.navbar-collapse -->
   </div>
