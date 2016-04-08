@@ -31,28 +31,28 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <style media="screen" type="text/css">
+      <style media="screen" type="text/css">
+
         div#lightbox {
-    display: none;
-}
+          display: none;
+        }
 
       </style> 
 </head>
   <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<div class="page-nav">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <div class="page-nav">
     <div class="page-nav-items">
-<a class="page-scroll" href="#report-1">1. Introduction</a>
-<a class="page-scroll" href="#report-2">2. From Ceasefire to Carnage</a>
-<a class="page-scroll" href="#report-5b">3. Hannibal Unleashed</a>
-<a class="page-scroll" href="#report-10">4. Tunnel Chase</a>
-<a class="page-scroll" href="#report-14">5. Ground Manoeuvre</a>
-<a class="page-scroll" href="#report-15">6. Escaping through Fire</a>
-<a class="page-scroll" href="#report-17">7. Destruction Continues</a>
-<a class="page-scroll" href="#report-18">8. Shift in Proportionality</a>
+      <a class="page-scroll" href="#report-1">1. Introduction</a>
+      <a class="page-scroll" href="#report-2">2. From Ceasefire to Carnage</a>
+      <a class="page-scroll" href="#report-5b">3. Hannibal Unleashed</a>
+      <a class="page-scroll" href="#report-10">4. Tunnel Chase</a>
+      <a class="page-scroll" href="#report-14">5. Ground Manoeuvre</a>
+      <a class="page-scroll" href="#report-15">6. Escaping through Fire</a>
+      <a class="page-scroll" href="#report-17">7. Destruction Continues</a>
+      <a class="page-scroll" href="#report-18">8. Shift in Proportionality</a>
     </div>
-</div>
+  </div>
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-header">
@@ -137,8 +137,14 @@
 </div>
 <!-- /.container -->
 </nav>
+
+
 <?php include ("inc/cases.html");?>
-<!-- Page --><section id="report-1" class="top-section report-1 section"><div class="container"><div class="row"><div class="col-lg-10 col-xs-12">
+
+
+<!-- Page -->
+
+<section id="report-1" class="top-section report-1 section"><div class="container"><div class="row"><div class="col-lg-10 col-xs-12">
 <div class="box"><h1><span class="h1-heading">
     'Black Friday'
 </span></h1>
