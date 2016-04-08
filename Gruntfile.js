@@ -33,7 +33,8 @@ module.exports = function(grunt) {
           '*.html',  
           '_layouts/**',
           '_posts/**',
-          '_includes/**'
+          '_includes/**',
+          'js/**'
         ],
         tasks: ['shell:jekyllBuild'],
         options: {
