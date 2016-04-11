@@ -1,4 +1,6 @@
-## Developing this locally
+This site uses **Jekyll**, a static site generator. To learn how to build stuff with Jekyll, check out its [**docs**](https://jekyllrb.com/docs/).
+
+## Developing this site locally
 
 ### Ingredients
 
@@ -26,9 +28,9 @@ When you're happy, commit your changes and push everything to the master branch 
 
 :rocket:
 
-### Cross-platform *tasting*
+#### Cross-platform *tasting*
 
-When the food is ready, invite your different platforms and see their feedback with the [**browsersync** *tasting* tool](http://www.browsersync.io/)!
+When the food is ready, invite your different platforms  with the [**browsersync** *tasting* tool](http://www.browsersync.io/)!
 
 `grunt tasting`
 
