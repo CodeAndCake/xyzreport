@@ -1,23 +1,12 @@
-/* .testimony {
-    outline: #000 dashed 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.ttf);
 }
-.testimony:hover {
-    outline: #000 double 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
-    text-decoration:none;
+h1, h2, h3, h4, h5, h6
+{
+  font-family: BebasNeueBold;
 }
-.testimony:active {
-    outline: #000 double 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
-    text-decoration:none;
-} */
+
 .h1-heading {  
   /*font-size: 59px;*/
   font-size: 3.5rem;
@@ -53,7 +42,7 @@
   font-weight: 400;
   margin:0;
   text-align:right;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold ,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -71,7 +60,7 @@
   font-size: 2rem;
   font-weight: 400;
   margin:0;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -174,7 +163,7 @@ a.testimony:hover {
   /*font-size: 38px;
   font-size: 2.75rem;*/
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -282,7 +271,7 @@ h5.caption {
   font-size: 21px;
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -314,7 +303,7 @@ h5.caption {
   font-size: 23px;
   font-size: 1.7rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -325,7 +314,7 @@ h5.caption {
 .action--default .action__btn {
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
@@ -366,7 +355,7 @@ h5.caption {
 
 .blocknav__box {
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   font-kerning: normal;
   line-height: 1.1;
   background-color: #fff;
@@ -384,7 +373,7 @@ h5.caption {
 
 .blocknav__boxtitle {
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   -webkit-font-feature-settings: 'kern';
   font-kerning: normal;
   line-height: 1.1;
@@ -576,7 +565,7 @@ a.page-scroll-active:hover {
   left: calc(261px + 1rem);
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   line-height: 1.1;
   -webkit-transition: top .5s ease-in-out;
         -moz-transition: top .5s ease-in-out;
@@ -650,7 +639,7 @@ a.page-scroll-active:hover {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   line-height:1.1;
   display:inline-block;
   z-index:999;
