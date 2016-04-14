@@ -4,3 +4,4 @@ jekyll/_site
 node_modules
 .sass-cache
 _site
+sassy.css.map
