@@ -8,10 +8,25 @@
     src: url(../fonts/LeagueGothic-Regular.ttf);
 }
 
+@font-face {
+    font-family: GnuolaneRegular;
+    src: url(../fonts/gnuolane-rg.ttf);
+}
+
+@font-face {
+    font-family: PTSansNarrowBold;
+    src: url(../fonts/PTSansNarrowBold.ttf);
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+  // let's anti-aliase everything!
+}
+
 h1, h2, h3, h4, h5, h6, .h1-heading, .h2-heading, .h3-heading
 {
-  // font-family: BebasNeueBold;
-  font-family: LeagueGothic;
+  font-family: BebasNeueBold;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3
@@ -34,7 +49,7 @@ h1, h2, h3
 
 h5, .h5-heading
 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .h5-heading {
@@ -58,9 +73,9 @@ h5, .h5-heading
   font-weight: 400;
   margin:0;
   text-align:right;
-  -webkit-font-feature-settings: 'kern';
+  /* -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  -webkit-font-kerning: normal; */
   font-kerning: normal;
   line-height: 1.1;
 }
@@ -75,10 +90,10 @@ h5, .h5-heading
   font-size: 2.2rem;
   font-weight: 400;
   margin:0;
-  -webkit-font-feature-settings: 'kern';
+  /* -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
-  font-kerning: normal;
+  font-kerning: normal; */
   line-height: 1.1;
 }
 .h3-heading-box {
@@ -173,20 +188,28 @@ a.testimony:hover {
   margin:2rem auto;
 }
 
-.quote-text{
-  /*font-size: 38px;
-  font-size: 2.75rem;*/
+.quote-text,
+.emphasized-text
+{
+  font-family: Oswald;
   font-weight: 400;
-  // font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  font-family: LeagueGothic;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  word-spacing: .1rem;
   font-kerning: normal;
-  line-height: 1.2;
-  position: relative;
-  font-size: 1.6rem;
 }
+
+.quote-text
+{
+  line-height: 1.4;
+  position: relative;
+}
+
+.emphasized-text
+{
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin-top:-1rem;
+}
+
 .container {
   width:100%;
   padding:0;
@@ -287,10 +310,10 @@ h5.caption {
   font-size: 1.5rem;
   font-weight: 400;
   font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
-  font-kerning: normal;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
+  // font-kerning: normal;
   line-height: 1.1;
   text-align: right;
   text-align: center;
@@ -319,9 +342,9 @@ h5.caption {
   font-size: 1.7rem;
   font-weight: 400;
   font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
   font-kerning: normal;
   line-height: 1.1;
   margin: 0;
@@ -330,10 +353,10 @@ h5.caption {
   font-weight: 400;
   text-transform: uppercase;
   font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
-  font-kerning: normal;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
+  // font-kerning: normal;
   line-height: 1.1;
   -webkit-appearance: none;
   border-radius: 0;
@@ -389,8 +412,8 @@ h5.caption {
 .blocknav__boxtitle {
   font-weight: 400;
   font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-kerning: normal;
+  // -webkit-font-feature-settings: 'kern';
+  // font-kerning: normal;
   line-height: 1.1;
   box-sizing: border-box;
   font-size: 1rem;
@@ -1139,3 +1162,23 @@ ul.nav.navbar-nav {
   padding-bottom:0;
 }
 }
+
+// vimeo
+
+// for Vimeo Share button:
+.tcvpb-videoWrapper-vimeo .player .sidedock .share-button{
+    display: none !important;
+}
+// and for recommended videos when the video has ended:
+.tcvpb-videoWrapper-vimeo .player .outro .video-section{
+    display: none !important;
+}
+
+// PDF displayer
+
+#publication_wrapper #embed_controls .logo,
+#publication #content.branded #embed_controls .logo
+{
+  display: none;
+}
+
