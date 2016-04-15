@@ -1,23 +1,39 @@
-/* .testimony {
-    outline: #000 dashed 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.ttf);
 }
-.testimony:hover {
-    outline: #000 double 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
-    text-decoration:none;
+
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../fonts/LeagueGothic-Regular.ttf);
 }
-.testimony:active {
-    outline: #000 double 1px;
-    outline-offset: -1px;
-    padding: 0 2px;
-    color:#f00;
-    text-decoration:none;
-} */
+
+@font-face {
+    font-family: GnuolaneRegular;
+    src: url(../fonts/gnuolane-rg.ttf);
+}
+
+@font-face {
+    font-family: PTSansNarrowBold;
+    src: url(../fonts/PTSansNarrowBold.ttf);
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+  // let's anti-aliase everything!
+}
+
+h1, h2, h3, h4, h5, h6, .h1-heading, .h2-heading, .h3-heading
+{
+  font-family: BebasNeueBold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3
+{
+  text-transform:uppercase;
+}
+
 .h1-heading {  
   /*font-size: 59px;*/
   font-size: 3.5rem;
@@ -30,12 +46,16 @@
   display:inline-block;
 
 }
+
+h5, .h5-heading
+{
+  font-size: 1.75rem;
+}
+
 .h5-heading {
   background-color: white;
   color:black;
   border:1px solid black;
-  font-size:21px;
-  font-size:1.5rem;
   padding: 10px;
   padding: .71429rem;
   display: inline-block;
@@ -49,14 +69,13 @@
   color:black;
   text-transform:uppercase;
   display:inline-block;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 400;
   margin:0;
   text-align:right;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
+  /* -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  -webkit-font-kerning: normal; */
   font-kerning: normal;
   line-height: 1.1;
 }
@@ -68,14 +87,13 @@
   display:inline-block;
   /*width:100%;*/
   text-align:left;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 400;
   margin:0;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
+  /* -webkit-font-feature-settings: 'kern';
   font-feature-settings: 'kern';
   -webkit-font-kerning: normal;
-  font-kerning: normal;
+  font-kerning: normal; */
   line-height: 1.1;
 }
 .h3-heading-box {
@@ -167,22 +185,31 @@ a.testimony:hover {
     /*margin-left: 1rem;
   margin-right: calc(2.42857rem + 10px);*/
   max-width:660px;
-  margin:1.5rem auto;
+  margin:2rem auto;
 }
 
-.quote-text{
-  /*font-size: 38px;
-  font-size: 2.75rem;*/
+.quote-text,
+.emphasized-text
+{
+  font-family: Oswald;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  word-spacing: .1rem;
   font-kerning: normal;
-  line-height: 1.2;
-  position: relative;
-  font-size: 1.1rem;
 }
+
+.quote-text
+{
+  line-height: 1.4;
+  position: relative;
+}
+
+.emphasized-text
+{
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin-top:-1rem;
+}
+
 .container {
   width:100%;
   padding:0;
@@ -282,11 +309,11 @@ h5.caption {
   font-size: 21px;
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
-  font-kerning: normal;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
+  // font-kerning: normal;
   line-height: 1.1;
   text-align: right;
   text-align: center;
@@ -314,10 +341,10 @@ h5.caption {
   font-size: 23px;
   font-size: 1.7rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
   font-kerning: normal;
   line-height: 1.1;
   margin: 0;
@@ -325,11 +352,11 @@ h5.caption {
 .action--default .action__btn {
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-feature-settings: 'kern';
-  -webkit-font-kerning: normal;
-  font-kerning: normal;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  // -webkit-font-feature-settings: 'kern';
+  // font-feature-settings: 'kern';
+  // -webkit-font-kerning: normal;
+  // font-kerning: normal;
   line-height: 1.1;
   -webkit-appearance: none;
   border-radius: 0;
@@ -366,7 +393,7 @@ h5.caption {
 
 .blocknav__box {
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   font-kerning: normal;
   line-height: 1.1;
   background-color: #fff;
@@ -384,9 +411,9 @@ h5.caption {
 
 .blocknav__boxtitle {
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
-  -webkit-font-feature-settings: 'kern';
-  font-kerning: normal;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  // -webkit-font-feature-settings: 'kern';
+  // font-kerning: normal;
   line-height: 1.1;
   box-sizing: border-box;
   font-size: 1rem;
@@ -576,7 +603,7 @@ a.page-scroll-active:hover {
   left: calc(261px + 1rem);
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   line-height: 1.1;
   -webkit-transition: top .5s ease-in-out;
         -moz-transition: top .5s ease-in-out;
@@ -586,7 +613,7 @@ a.page-scroll-active:hover {
         transition: font-size .5s ease-in-out;
 }
 .title.title-collapse{
-  font-size: 1rem;
+  font-size: 1.5rem;
   top: 7.5px;
   -webkit-transition: top .5s ease-in-out;
         -moz-transition: top .5s ease-in-out;
@@ -650,7 +677,7 @@ a.page-scroll-active:hover {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  font-family: 'AmnestyTradeGothicW01BdCnNo-20',HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
+  font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   line-height:1.1;
   display:inline-block;
   z-index:999;
@@ -698,8 +725,8 @@ transition: top .5s ease-in-out, color .25s linear, background-color .25s linear
 }
 
 .title {
-  top: 21px;
-    font-size: 1.2rem;
+  top: 19px;
+    font-size: 2rem;
       -webkit-transition: top .5s ease-in-out, font-size .5s ease-in-out;
   -moz-transition: top .5s ease-in-out, font-size .5s ease-in-out;
   transition: top .5s ease-in-out, font-size .5s ease-in-out;
@@ -1135,3 +1162,23 @@ ul.nav.navbar-nav {
   padding-bottom:0;
 }
 }
+
+// vimeo
+
+// for Vimeo Share button:
+.tcvpb-videoWrapper-vimeo .player .sidedock .share-button{
+    display: none !important;
+}
+// and for recommended videos when the video has ended:
+.tcvpb-videoWrapper-vimeo .player .outro .video-section{
+    display: none !important;
+}
+
+// PDF displayer
+
+#publication_wrapper #embed_controls .logo,
+#publication #content.branded #embed_controls .logo
+{
+  display: none;
+}
+
