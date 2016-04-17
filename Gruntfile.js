@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     shell: {
       jekyllBuild: {
-        command: 'jekyll build --config _config.yml,_config.local.yml'
+        command: 'jekyll build --config _config.yml,_config.local.yml --verbose'
       },
       jekyllServe: {
         command: "jekyll serve --baseurl ''"
