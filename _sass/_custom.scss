@@ -493,9 +493,9 @@ h5.caption {
   position: fixed;
   right: 0;
   top: 60px;
-  -webkit-transition: top .5s ease-in-out;
-        -moz-transition: top .5s ease-in-out;
-        transition: top .5s ease-in-out;
+  -webkit-transition: top .25s ease-in-out;
+        -moz-transition: top .25s ease-in-out;
+        transition: top .25s ease-in-out;
 }
 .navbar-collapse.collapse.in > .menu-1 > h5 > .navbar-nav > li > a {
     padding: 8px;
@@ -550,9 +550,9 @@ h5.caption {
 }
 .menu-2.menu-2-collapse {
   top: 30px;
-  -webkit-transition: top .5s ease-in-out;
+  /* -webkit-transition: top .5s ease-in-out;
         -moz-transition: top .5s ease-in-out;
-        transition: top .5s ease-in-out;
+        transition: top .5s ease-in-out; */
 }
 
 .collapse.navbar-collapse.navbar-ex1-collapse {
@@ -562,7 +562,7 @@ h5.caption {
         transition: padding-bottom .5s ease-in-out;
 }
 .collapse.navbar-collapse.navbar-ex1-collapse.ex1-collapse {
-  padding-bottom:0px;
+  // padding-bottom:0px;
     -webkit-transition: padding-bottom .5s ease-in-out;
         -moz-transition: padding-bottom .5s ease-in-out;
         transition: padding-bottom .5s ease-in-out;
@@ -573,9 +573,9 @@ h5.caption {
   text-transform: uppercase;
   text-align: center;
   -webkit-transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
-        -moz-transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
-        -o-transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
-        transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
+  -moz-transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
+  -o-transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
+  transition: padding .25s ease-in-out, color .25s linear, background-color .25s linear;
 }
 a.page-scroll-not {
   color:white;
@@ -601,9 +601,10 @@ a.page-scroll-active:hover {
   position: fixed;
   top: 21px;
   color: white;
-  left: calc(261px + 1rem);
+  // left: calc(261px + 1rem);
+  left: 13px;
   text-transform: uppercase;
-  font-size: 1rem;
+  // font-size: 1rem;
   font-family: BebasNeueBold,HelveticaNeue-CondensedBold,'Franklin Gothic Medium',sans-serif;
   line-height: 1.1;
   -webkit-transition: top .5s ease-in-out;
@@ -614,15 +615,15 @@ a.page-scroll-active:hover {
         transition: font-size .5s ease-in-out;
 }
 .title.title-collapse{
-  font-size: 1.5rem;
-  top: 7.5px;
+  // font-size: 1.5rem;
+  // top: 7.5px;
   -webkit-transition: top .5s ease-in-out;
         -moz-transition: top .5s ease-in-out;
         transition: top .5s ease-in-out;
         -webkit-transition: font-size .5s ease-in-out;
         -moz-transition: font-size .5s ease-in-out;
         transition: font-size .5s ease-in-out;
-}
+} 
 /*.h2-front {
   margin-top:1rem;
   text-align: justify;
@@ -1148,7 +1149,7 @@ h5 {
   display: inline-block;
   font-size: .9rem;
 }
-.title.title-collapse {
+/* .title.title-collapse {
   -webkit-transition: left .5s ease-in-out;
   -moz-transition: left .5s ease-in-out;
   transition: left .5s ease-in-out;
@@ -1159,7 +1160,7 @@ h5 {
   -moz-transition: left .5s ease-in-out;
   transition: left .5s ease-in-out;
   left: calc(113px + 1rem);
-}
+} */
 /*.menu-1 {
   margin-top: 60px;
 }*/
@@ -1176,7 +1177,7 @@ h5 {
         -moz-transition: top .5s ease-in-out;
         transition: top .5s ease-in-out;
 }
-.title.title-collapse {
+/* .title.title-collapse {
   top: 21px;
     font-size: 1.2rem;
       -webkit-transition: top .5s ease-in-out;
@@ -1185,7 +1186,7 @@ h5 {
   -webkit-transition: font-size .5s ease-in-out;
   -moz-transition: font-size .5s ease-in-out;
   transition: font-size .5s ease-in-out;
-}
+} */
 .page-nav {
   top: 60px;
 }
