@@ -34,6 +34,25 @@ When the food is ready, invite your different platforms  with the [**browsersync
 
 `grunt tasting`
 
+
+## Custom domain and HTTPS		
+
+1. Sign up to [CloudFlare](https://www.cloudflare.com/) (CF)
+* Add domain `deathbyrescue.org`
+* Get CF nameservers (e.g. `derek.ns.cloudflare.com`) and set them up in the domain registrar admin page
+* Back to CF, in *Crypto* change SSL to `Flexible`
+* In *DNS* create two `A` records and point them to GitHub's IP addresses 
+
+	Type | Name | Value
+	---- | ---- | -----
+	`A` | `deathbyrescue.org` | `192.30.252.153` 
+	`A` | `deathbyrescue.org` | `192.30.252.154` 
+* Click on the cloud icon next to the two new `A` records, to switch it from grey to orange.
+* In GH add/edit `CNAME` in the root directory of this repository and type in `deathbyrescue.org`	
+* In `_config.yml` comment out `# baseurl: /report`
+
+
+
 <!-- 
 
 # Jekyll Now
