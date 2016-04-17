@@ -1,24 +1,27 @@
 <!--  IMAGES   -->
 
-				<div class="img-box fit">
-
-				    <a href="{{ site.baseurl }}/assets/CHANGE-NAME" data-title="CAPTION" data-lightbox="lightbox01">
-				        <img src="{{ site.baseurl }}/assets/CHANGE-NAME" class="img-responsive img-thumbnail">
-				    </a>
-				</div>
-				<span class="caption">
-				    CAPTION
-				</span>
-
-				style="margin-top:1.5rem;"
-
-													<!--      S U P S     -->
-
-<sup><a data-placement="top" data-toggle="popover" data-toggle="popover" tabindex="0" role="button" data-content="CHANGE_THIS" data-html="true"><span class="glyphicon glyphicon-bookmark"></span></a></sup>
-
-													<!--      A N N E X E S    L I N K     -->
-
-																<a href=#>annex</a>
+		{%  include image-block.html 
+            
+            fileName="CHANGE_THIS" 
+  
+            caption="CHANGE_THIS" 
+        %}
 
 
-													<!--     F O O T N O T E S     -->
+		    style="margin-top:1.5rem;"
+
+<!--      S U P S     -->
+
+		{% 	include footnote-block.html 
+
+            content="CHANGE_THIS" 
+	    %} 
+
+
+
+<!--      A N N E X E S    L I N K     -->
+
+			<a href=#>annex</a>
+
+
+<!--     F O O T N O T E S     -->
