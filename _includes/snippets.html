@@ -1,18 +1,46 @@
 <!--  IMAGES   -->
 
-    		{% include image-block.html image='CHANGE_THIS' caption='CHANGE_THIS' %}
+    			{% include image-block.html image='CHANGE_THIS' caption='CHANGE_THIS' %}
 
 
         style="margin-top:1.5rem;"
 
 <!--  VIMEOS   -->
 
-        {% include vimeo-block.html videoID='1234567' caption='CHANGE_THIS' %}
+        		{% include vimeo-block.html videoID='1234567' caption='CHANGE_THIS' %}
 
 <!--  SUPS     -->
 
-        {% include footnote-block.html content='CHANGE_THIS' %} 
+        		{% include footnote-block.html content='CHANGE_THIS' %} 
 
 <!--  ANNEXES LINK     -->
 
   			<a href=#>annex</a>
+
+<!-- BOLD BLOCK -->
+      
+      			{% include bold-block.html content='CHANGE_THIS' %}
+
+<!-- BOLD BLOCK WITH SUP-->
+        <div class="box">
+          <p class="emphasized-text">
+          CHANGE-THIS{% include footnote-block.html content='CHANGE_THIS' %}
+          </p>
+        </div>
+
+<!-- QUOTE -->
+		        <div class="quote">
+		              <div class="quote-text">
+		                  “QUOTE”<sup><a data-placement="top" data-toggle="popover" data-toggle="popover" tabindex="0" role="button" data-content="CHANGE-THIS" data-html="true"><span class="glyphicon glyphicon-bookmark"></span></a></sup>
+		              </div>
+		              <div class="quote-source">
+		                  CHANGE-SOURCE
+		              </div>
+		        </div>
+
+<!-- FIRST H3 -->
+		        <div class="box">
+		          <h3><span class="h3-heading">
+		            CHANGE-THIS
+		          </span></h3>
+		        </div>
