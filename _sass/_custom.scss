@@ -666,6 +666,43 @@ a.page-scroll-active:hover {
   color: red;
 }
 
+#annexes
+{
+  h2, h3 
+  {
+    margin-top: .5rem;
+    padding: 10px;
+    background: #dadada;
+    display: inline-block;
+  }
+
+  ol 
+  {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+
+    li
+    {
+      margin-bottom: .5rem;
+    }
+  }  
+
+  a:hover
+  {
+    border-bottom: 1px dotted red;
+  }
+  
+  a:after
+  {
+    content: "\e164";
+    font-family: 'Glyphicons Halflings';
+    color: red;
+    margin-left: .5rem;
+    position: relative;
+    top: 1px;
+  }
+}
+
 .panel-body .caption {
   /*margin-bottom: 1rem;
   margin-bottom: 1rem;*/
