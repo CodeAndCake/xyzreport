@@ -5,6 +5,29 @@
 
         style="margin-top:1.5rem;"
 
+<!-- MULTIPLE IMAGE -->
+		        <div class="img-box fit">
+		            <a href="{{ site.baseurl }}/assets/FIRST-IMAGE-NAME" data-title="USE CAPTION" data-lightbox="lightbox02">
+		                <span class="slideshow" style="background: url({{ site.baseurl }}/assets/lightbox/next.png) right 48% no-repeat;"></span>
+		                <img src="{{ site.baseurl }}/assets/FIRST-IMAGE-NAME" class="img-responsive img-thumbnail">
+		            </a>
+		            <a href="{{ site.baseurl }}/assets/SECOND-IMAGE-NAME" data-title="USE CAPTION" data-lightbox="lightbox02">
+		            </a>
+		        </div>
+		        <span class="caption">
+		        CAPTION
+		        </span>
+
+<!-- IMAGE WITH SUP IN CAPTION -->
+		        <div class="img-box fit">
+				  <a href="{{ site.baseurl }}/assets/IMAGE-NAME" data-title="{{ include.caption }}" data-lightbox="lightbox01">
+				    <img src="{{ site.baseurl }}/assets/IMAGE-NAME" class="img-responsive img-thumbnail">
+				  </a>
+				</div>
+				<span class="caption">
+				  CAPTION {% include footnote-block.html content='CHANGE_THIS' %}
+				</span>
+
 <!--  VIMEOS   -->
 
         		{% include vimeo-block.html videoID='1234567' caption='CHANGE_THIS' %}
