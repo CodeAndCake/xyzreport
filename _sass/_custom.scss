@@ -51,6 +51,11 @@ h5, .h5-heading
 {
   font-size: 1.75rem;
 }
+.annexes-h5
+{
+  font-size: 1.4rem;
+  margin-top: .5rem;
+}
 
 .h5-heading {
   background-color: white;
@@ -678,12 +683,12 @@ a.page-scroll-active:hover {
 
   ol 
   {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     padding-left: 1rem;
 
     li
     {
-      margin-bottom: .5rem;
+      // margin-bottom: .5rem;
     }
   }  
 }
