@@ -687,13 +687,16 @@ a.page-scroll-active:hover {
       margin-bottom: .5rem;
     }
   }  
+}
 
-  a:hover
+a.annex
+{
+  &:hover
   {
     border-bottom: 1px dotted red;
   }
   
-  a:after
+  &:after
   {
     content: "\e164";
     font-family: 'Glyphicons Halflings';
