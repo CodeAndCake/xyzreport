@@ -1233,11 +1233,21 @@ ul.nav.navbar-nav {
     display: none !important;
 }
 
-// PDF displayer
 
-#publication_wrapper #embed_controls .logo,
-#publication #content.branded #embed_controls .logo
+
+
+.acknowledgements-logo
 {
-  display: none;
+  max-width: 20%;
+  margin: 10px;
 }
 
+.acknowledgements-logo.small-logo
+{
+  max-width: 10%;
+}
+
+.logo-container
+{
+  margin: 3.5rem auto;
+}
