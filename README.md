@@ -6,11 +6,13 @@ All pages are `.html` files stored in the main folder at https://github.com/lore
 * `summary.html` is Summary
 * `report.html` is Report > Background
 * `report.narrative.html` is Report > Main Narrative
-* etc.
+  * `_includes/report.narrative.1.html` is Report > Narrative > Introduction
+  * `_includes/report.narrative.2.html` is Report > Narrative > Mare Nostrum's Demise
+  * etc.
 
 ## Making changes
 
-* Click on a file, e.g. `report.html`
+* Right-click on a `.html` file from the list above, e.g. `report.html`, and then `Open Link in New Tab`
 * Click on the *pencil* button on the top-right to start editing that file
 * Use <kbd>cmd</kbd> + <kbd>F</kbd> to search for the word / sentence you want to change
 * Make your changes to the content
