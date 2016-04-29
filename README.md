@@ -46,5 +46,5 @@ We recommend using www.html-cleaner.com if you're copying from a Word document.
 * Press `Clean HTML` under the HTML screen on the left
 * To use a footnote, navigate to the bottom of the HTML where you'll find links to the footnotes that look like `<p><a>something or other [8]</a> Footnotes content here </p>`
 * **Copy** only the text which you want to appear when someone clicks the red flag, e.g. in the above example you'd copy `Footnotes content here`
-* Bck to Github, **paste** the footnote text in between the `content='` and `'`. Make sure there are no single quotes `'` in that text, otherwise the footnote code will break.
+* Back to Github, **paste** the footnote text in between the `content='` and `'`. Make sure there are no single quotes `'` in that text, otherwise the footnote code will break.
 * When you're happy with the changes, scroll down to the bottom of the page and the press the green `Commit changes` button
