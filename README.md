@@ -1,21 +1,28 @@
 # Main structure
-* All pages are .html files stored in the main folder at `https://github.com/lorenzocharles/report`
-* `index.html` is main file - Foreword
-* `summary.html` is summary
+
+* All pages are `.html` files stored in the main folder at https://github.com/lorenzocharles/report
+* `index.html` is the main file - Foreword
+* `summary.html` is Summary
 * `report.html` is Report > Background
 * `report.narrative.html` is Report > Main Narrative
 * etc.
 
-# Making changes
-* click on file eg. `report.html`
-* click on the pencil button to open the edit screen
-* `cmd F` to search for your terms
-* make your changes to the content
+## Making changes
+
+* Click on a file, e.g. `report.html`
+* Click on the *pencil* button on the top-right to start editing that file
+* Use <kbd>cmd</kbd> + <kbd>F</kbd> to search for the word / sentence you want to change
+* Make your changes to the content
+* When you're done, scroll down to the bottomof the page and the press the green `Commit changes` button
+
+### Changing images
+
 * if you want to change an image look for `<div class="img-box fit"`
 * find the image url and change the name in `<a href='{{ site.baseurl}}/assets/CHANGE-THIS-NAME.jpg'>` AND `<img src='{{ site.baseurl}}/assets/CHANGE-THIS-NAME.jpg' class...>`
 * Write a commit message and press commit button
 
-# Changing footnotes
+###  Changing footnotes
+
 * You're looking for `<sup ... data-content="CHANGE THIS" ...>...</sup>` 
 * We recommend using `www.html-cleaner.com`
 * In HTML Cleaner, paste in your content from the Word doc
