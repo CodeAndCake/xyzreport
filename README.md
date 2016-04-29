@@ -21,25 +21,29 @@ All pages are `.html` files stored in the main folder at https://github.com/lore
 
 ### Changing images
 
-Images are inside blocks that look like this
+Images are inside code blocks that look like this
 
 ```ruby
-{% include image-block.html caption='Deaths at the Borders of Europe, 1993 - 2012. Source: Migreurop.' image='3.1-map_36.3_Dangerous-crossings_EN_frame2.jpg' %}
+{% include image-block.html caption='Deaths, 1993 - 2012. Source: Migreurop.' image='3.1-map2.jpg' %}
 ```
 You can change the text for `caption`, by editing the bit between `caption='` and `'`. Make sure there are no single quotes `'` in that text, otherwise the image code will break. 
 
 Likewise, you can change the file by editing the bit between `image='` and `'`. 
 
-It's good practice not to have spaces in file names, so before you upload a file make sure you its name has no spaces (and possibly only letters and numbers), e.g. change `My File / final.jpg` to `my-file-final.jpg`
+It's good practice not to have spaces in file names, so before you upload a file make sure its name has no spaces (and possibly only letters and numbers), e.g. change `My File / final.jpg` to `my-file-final.jpg`
 
 ###  Changing footnotes
 
-* You're looking for `<sup ... data-content="CHANGE THIS" ...>...</sup>` 
-* We recommend using `www.html-cleaner.com`
-* In HTML Cleaner, paste in your content from the Word doc
-* Press Clean HTML under the HTML screen on the left
-* If you want to use a footnote, navigate to the bottom of the HTML where you'll find links to the footnotes that look something like: `<p><a>something or other [8]</a> Footnotes content here </p>`
-* If there are links in the footnote be sure to replace all double quotation marks `"` with single `'`
-* Then copy only the text which you want to appear in the flag
-* In the document on Github, paste the footnote text into the `<sup ...datacontent="PASTE-HERE" ...>...</sup>`
-* When you're happy with the changes, write a commit message and press commit
+Footnotes are inside code blocks that look like this 
+
+```ruby
+{% include footnote-block.html content='See Hein de Haas ... The deaths at sea and the mortality rate increased in consequence.' %}
+```
+
+We recommend using www.html-cleaner.com if you're copying from a Word document.
+1. In HTML Cleaner, paste in your content from the Word doc 
+* Press `Clean HTML` under the HTML screen on the left
+* To use a footnote, navigate to the bottom of the HTML where you'll find links to the footnotes that look like `<p><a>something or other [8]</a> Footnotes content here </p>`
+* **Copy** only the text which you want to appear when someone clicks the red flag, e.g. in the above example you'd copy `Footnotes content here`
+* Bck to Github, **paste** the footnote text in between the `content='` and `'`. Make sure there are no single quotes `'` in that text, otherwise the footnote code will break.
+* When you're happy with the changes, scroll down to the bottom of the page and the press the green `Commit changes` button
