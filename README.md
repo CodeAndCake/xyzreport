@@ -28,10 +28,9 @@ Images are inside blocks that look like this
 ```
 You can change the text for `caption`, by editing the bit between `caption='` and `'`. Make sure there are no single quotes `'` in that text, otherwise the image code will break. 
 
+Likewise, you can change the file by editing the bit between `image='` and `'`. 
 
-* if you want to change an image look for `<div class="img-box fit"`
-* find the image url and change the name in `<a href='{{ site.baseurl}}/assets/CHANGE-THIS-NAME.jpg'>` AND `<img src='{{ site.baseurl}}/assets/CHANGE-THIS-NAME.jpg' class...>`
-* Write a commit message and press commit button
+It's good practice not to have spaces in file names, so before you upload a file make sure you its name has no spaces (and possibly only letters and numbers), e.g. change `My File / final.jpg` to `my-file-final.jpg`
 
 ###  Changing footnotes
 
