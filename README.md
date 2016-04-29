@@ -13,10 +13,11 @@ All pages are `.html` files stored in the main folder at https://github.com/lore
 ## Making changes
 
 * Right-click on a `.html` file from the list above, e.g. `report.html`, and then `Open Link in New Tab`
-* Click on the *pencil* button on the top-right to start editing that file
+* In the new tab, click on the *pencil* button on the top-right to start editing that file
+  ![](assets/edit.png)
 * Use <kbd>cmd</kbd> + <kbd>F</kbd> to search for the word / sentence you want to change
 * Make your changes to the content
-* When you're done, scroll down to the bottomof the page and the press the green `Commit changes` button
+* When you're done, scroll down to the bottom of the page and the press the green `Commit changes` button
 
 ### Changing images
 
