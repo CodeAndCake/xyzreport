@@ -37,10 +37,11 @@ It's good practice not to have spaces in file names, so before you upload a file
 Footnotes are inside code blocks that look like this 
 
 ```ruby
-{% include footnote-block.html content='See Hein de Haas ... The deaths at sea and the mortality rate increased in consequence.' %}
+{% include footnote-block.html content='See Hein de Haas [...] in consequence.' %}
 ```
 
 We recommend using www.html-cleaner.com if you're copying from a Word document.
+
 1. In HTML Cleaner, paste in your content from the Word doc 
 * Press `Clean HTML` under the HTML screen on the left
 * To use a footnote, navigate to the bottom of the HTML where you'll find links to the footnotes that look like `<p><a>something or other [8]</a> Footnotes content here </p>`
