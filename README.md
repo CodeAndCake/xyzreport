@@ -1,6 +1,7 @@
 # Main structure
 
-* All pages are `.html` files stored in the main folder at https://github.com/lorenzocharles/report
+All pages are `.html` files stored in the main folder at https://github.com/lorenzocharles/report
+
 * `index.html` is the main file - Foreword
 * `summary.html` is Summary
 * `report.html` is Report > Background
